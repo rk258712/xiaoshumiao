@@ -1,0 +1,1 @@
+import{l as o,m as s,o as e,c as r,i as t}from"./index-dc4240aa.js";import{_ as a}from"./_plugin-vue_export-helper.1b428a4d.js";const n=a({data:()=>({}),onShow(){o()||s({url:"/pages/login/login"})},methods:{}},[["render",function(o,s,a,n,i,l){const p=t;return e(),r(p)}]]);export{n as default};

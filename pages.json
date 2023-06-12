@@ -1,0 +1,235 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/test/staff",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		{
+			"path": "pages/study/study",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/exercise/exercise",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/datum/datum",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/select/select",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/agreement/agreement",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/study/infomation/infomation",
+			"style": {
+				"navigationBarTitleText": "最新资讯",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/study/courseDetail/courseDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/study/search/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/study/courseList/courseList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/exercise/rank/rank",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/exercise/simulationTest/simulationTest",
+			"style": {
+				"navigationBarTitleText": "模拟测试",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/exercise/dailyPractice/dailyPractice",
+			"style": {
+				"navigationBarTitleText": "每日一练",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/exercise/question/question",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/study/courseCatalogDetail/courseCatalogDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/buy/buy",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/study/courseDetail/courseComment",
+			"style": {
+				"navigationBarTitleText": "评价",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "rgb(242, 243, 245)"
+			}
+
+		}, {
+			"path": "pages/study/courseDetail/courseReadComment",
+			"style": {
+				"navigationBarTitleText": "我的评价",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "rgb(242, 243, 245)"
+			}
+
+		}, {
+			"path": "pages/study/courseCatalogDetail/courseVideoPlay",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/exercise/simulationTest/examList",
+			"style": {
+				"navigationBarTitleText": "模拟测试",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/datum/datumDetail",
+			"style": {
+				"navigationBarTitleText": "资料详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/exercise/question/answerReport",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}
+	],
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"fui-(.*)": "@/components/firstui/fui-$1/fui-$1.vue"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/study/study",
+			"iconPath": "static/tab/tab_study_nor.png",
+			"selectedIconPath": "static/tab/tab_study_sel.png",
+			"text": "学习"
+		}, {
+			"pagePath": "pages/exercise/exercise",
+			"iconPath": "static/tab/tab_exercise_nor.png",
+			"selectedIconPath": "static/tab/tab_exercise_sel.png",
+			"text": "练习"
+		}, {
+			"pagePath": "pages/datum/datum",
+			"iconPath": "static/tab/tab_datum_nor.png",
+			"selectedIconPath": "static/tab/tab_datum_sel.png",
+			"text": "资料"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/tab/tab_my_nor.png",
+			"selectedIconPath": "static/tab/tab_my_sel.png",
+			"text": "我的"
+		}]
+	}
+
+}

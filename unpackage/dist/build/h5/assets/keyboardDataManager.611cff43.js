@@ -1,0 +1,1 @@
+import{j as o,V as s,s as n}from"./index-dc4240aa.js";const c=["YINFUHUAFA","WUXIANPU","YINFU","YINFUYINGAO"];function i(s){return o(s)}function t(){for(let o of c)s("/api/TopicWxpPic/picList",{code:o}).then((s=>{var c,i;console.log(s.rows),c=o,i=s.rows,n(c,i)}),(function(o){console.log(o)}))}export{i as g,t as l};
